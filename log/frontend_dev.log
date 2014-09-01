@@ -1,0 +1,51 @@
+Sep 01 22:17:39 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Sep 01 22:17:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 01 22:17:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 01 22:17:39 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Sep 01 22:17:39 symfony [info] {sfPHPView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Sep 01 22:17:39 symfony [info] {sfPHPView} Decorate content with "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 01 22:17:39 symfony [info] {sfPHPView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 01 22:17:39 symfony [warning] {sfWebDebugLogger}  Warning at /Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 336 (Cannot modify header information - headers already sent by (output started at /Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Sep 01 22:17:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 01 22:17:39 symfony [warning] {sfWebDebugLogger}  Warning at /Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/response/sfWebResponse.class.php on line 357 (Cannot modify header information - headers already sent by (output started at /Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/response/sfWebResponse.class.php:409))
+Sep 01 22:17:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 01 22:17:39 symfony [info] {sfWebDebugLogger} Configuration 71.24 ms (9)
+Sep 01 22:17:39 symfony [info] {sfWebDebugLogger} Factories 68.36 ms (1)
+Sep 01 22:17:39 symfony [info] {sfWebDebugLogger} Action "default/index" 0.15 ms (1)
+Sep 01 22:17:39 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 13.61 ms (1)
+Sep 01 22:17:39 symfony [info] {sfWebResponse} Send content (30272 o)
+Sep 01 22:20:11 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Sep 01 22:20:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 01 22:20:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 01 22:20:11 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Sep 01 22:20:11 symfony [info] {sfPHPView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Sep 01 22:20:11 symfony [info] {sfPHPView} Decorate content with "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 01 22:20:11 symfony [info] {sfPHPView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 01 22:20:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 01 22:20:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 01 22:20:11 symfony [info] {sfWebDebugLogger} Configuration 1.03 ms (9)
+Sep 01 22:20:11 symfony [info] {sfWebDebugLogger} Factories 27.96 ms (1)
+Sep 01 22:20:11 symfony [info] {sfWebDebugLogger} Action "default/index" 0.16 ms (1)
+Sep 01 22:20:11 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 9.04 ms (1)
+Sep 01 22:20:11 symfony [info] {sfWebResponse} Send content (30300 o)
+Sep 01 22:24:39 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Sep 01 22:24:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 01 22:24:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 01 22:24:39 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Sep 01 22:24:39 symfony [info] {sfPHPView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Sep 01 22:24:39 symfony [info] {sfPHPView} Decorate content with "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 01 22:24:39 symfony [info] {sfPHPView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 01 22:24:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 01 22:24:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 01 22:24:39 symfony [info] {sfWebDebugLogger} Configuration 0.93 ms (9)
+Sep 01 22:24:39 symfony [info] {sfWebDebugLogger} Factories 27.15 ms (1)
+Sep 01 22:24:39 symfony [info] {sfWebDebugLogger} Action "default/index" 0.14 ms (1)
+Sep 01 22:24:39 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 8.32 ms (1)
+Sep 01 22:24:39 symfony [info] {sfWebResponse} Send content (30268 o)
+Sep 01 22:24:48 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /asdasd with parameters array (  'module' => 'asdasd',  'action' => 'index',)
+Sep 01 22:24:48 symfony [info] {sfFrontWebController} Action "asdasd/index" does not exist
+Sep 01 22:24:48 symfony [err] {sfError404Exception} Action "asdasd/index" does not exist.
+Sep 01 22:24:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 01 22:24:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 01 22:24:48 symfony [info] {sfWebDebugLogger} Configuration 0.50 ms (5)
+Sep 01 22:24:48 symfony [info] {sfWebDebugLogger} Factories 29.79 ms (1)
