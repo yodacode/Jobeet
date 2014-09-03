@@ -49,3 +49,47 @@ Sep 01 22:24:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Fou
 Sep 01 22:24:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
 Sep 01 22:24:48 symfony [info] {sfWebDebugLogger} Configuration 0.50 ms (5)
 Sep 01 22:24:48 symfony [info] {sfWebDebugLogger} Factories 29.79 ms (1)
+Sep 02 01:45:37 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /asdasd with parameters array (  'module' => 'asdasd',  'action' => 'index',)
+Sep 02 01:45:37 symfony [info] {myUser} Automatic user logout due to timeout
+Sep 02 01:45:37 symfony [info] {myUser} User is not authenticated
+Sep 02 01:45:37 symfony [info] {sfFrontWebController} Action "asdasd/index" does not exist
+Sep 02 01:45:37 symfony [err] {sfError404Exception} Action "asdasd/index" does not exist.
+Sep 02 01:45:37 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 02 01:45:37 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 01:45:37 symfony [info] {sfWebDebugLogger} Configuration 0.54 ms (5)
+Sep 02 01:45:37 symfony [info] {sfWebDebugLogger} Factories 29.50 ms (1)
+Sep 02 01:45:39 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /asdasd with parameters array (  'module' => 'asdasd',  'action' => 'index',)
+Sep 02 01:45:39 symfony [info] {sfFrontWebController} Action "asdasd/index" does not exist
+Sep 02 01:45:39 symfony [err] {sfError404Exception} Action "asdasd/index" does not exist.
+Sep 02 01:45:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Sep 02 01:45:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 01:45:39 symfony [info] {sfWebDebugLogger} Configuration 0.56 ms (5)
+Sep 02 01:45:39 symfony [info] {sfWebDebugLogger} Factories 26.90 ms (1)
+Sep 02 01:45:40 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Sep 02 01:45:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 01:45:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 01:45:40 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Sep 02 01:45:40 symfony [info] {sfPHPView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Sep 02 01:45:40 symfony [info] {sfPHPView} Decorate content with "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 02 01:45:40 symfony [info] {sfPHPView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 02 01:45:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 01:45:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 01:45:40 symfony [info] {sfWebDebugLogger} Configuration 0.88 ms (9)
+Sep 02 01:45:40 symfony [info] {sfWebDebugLogger} Factories 27.51 ms (1)
+Sep 02 01:45:40 symfony [info] {sfWebDebugLogger} Action "default/index" 0.14 ms (1)
+Sep 02 01:45:40 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 8.51 ms (1)
+Sep 02 01:45:40 symfony [info] {sfWebResponse} Send content (30269 o)
+Sep 02 01:45:43 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Sep 02 01:45:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 02 01:45:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 02 01:45:43 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Sep 02 01:45:43 symfony [info] {sfPHPView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Sep 02 01:45:43 symfony [info] {sfPHPView} Decorate content with "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 02 01:45:43 symfony [info] {sfPHPView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 02 01:45:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 02 01:45:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 02 01:45:43 symfony [info] {sfWebDebugLogger} Configuration 0.86 ms (9)
+Sep 02 01:45:43 symfony [info] {sfWebDebugLogger} Factories 26.76 ms (1)
+Sep 02 01:45:43 symfony [info] {sfWebDebugLogger} Action "default/index" 0.14 ms (1)
+Sep 02 01:45:43 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 8.19 ms (1)
+Sep 02 01:45:43 symfony [info] {sfWebResponse} Send content (30301 o)
