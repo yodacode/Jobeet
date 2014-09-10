@@ -19,9 +19,4 @@ class categoryActions extends sfActions
   {
     $this->forward('default', 'module');
   }
-
-  public function executeShow(sfWebRequest $request)
-  {
-    $this->category = $this->getRoute()->getObject();
-  }
 }
