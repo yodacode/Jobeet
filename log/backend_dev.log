@@ -14810,3 +14810,325 @@ Sep 22 16:31:08 symfony [info] {sfWebDebugLogger} Partial "category/_list_batch_
 Sep 22 16:31:08 symfony [info] {sfWebDebugLogger} Partial "category/_list_actions" 0.58 ms (1)
 Sep 22 16:31:08 symfony [info] {sfWebDebugLogger} Partial "category/_list_footer" 0.42 ms (1)
 Sep 22 16:31:08 symfony [info] {sfWebResponse} Send content (61618 o)
+Sep 22 16:52:54 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Sep 22 16:52:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 22 16:52:54 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 22 16:52:54 symfony [info] {sfBasicSecurityFilter} Action "job/index" requires authentication, forwarding to "default/login"
+Sep 22 16:52:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 22 16:52:54 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 22 16:52:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 22 16:52:54 symfony [info] {defaultActions} Call "defaultActions->executeLogin()"
+Sep 22 16:52:54 symfony [info] {sfPHPView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/controller/default/templates/loginSuccess.php"
+Sep 22 16:52:54 symfony [info] {sfPHPView} Decorate content with "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 22 16:52:54 symfony [info] {sfPHPView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 22 16:52:54 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Sep 22 16:52:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 22 16:52:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 22 16:52:54 symfony [info] {sfWebDebugLogger} Configuration 15.40 ms (15)
+Sep 22 16:52:54 symfony [info] {sfWebDebugLogger} Factories 43.62 ms (1)
+Sep 22 16:52:54 symfony [info] {sfWebDebugLogger} Action "default/login" 0.21 ms (1)
+Sep 22 16:52:54 symfony [info] {sfWebDebugLogger} View "Success" for "default/login" 10.22 ms (1)
+Sep 22 16:52:54 symfony [info] {sfWebResponse} Send content (32257 o)
+Sep 22 16:52:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 22 16:52:54 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 22 16:52:54 symfony [info] {sfBasicSecurityFilter} Action "job/index" requires authentication, forwarding to "default/login"
+Sep 22 16:52:54 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 22 16:52:54 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 22 16:52:54 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 22 16:52:54 symfony [info] {defaultActions} Call "defaultActions->executeLogin()"
+Sep 22 16:52:54 symfony [info] {sfPHPView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/controller/default/templates/loginSuccess.php"
+Sep 22 16:52:54 symfony [info] {sfPHPView} Decorate content with "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 22 16:52:54 symfony [info] {sfPHPView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 22 16:52:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 22 16:52:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 22 16:52:54 symfony [info] {sfWebDebugLogger} Configuration 1.77 ms (14)
+Sep 22 16:52:54 symfony [info] {sfWebDebugLogger} Factories 60.33 ms (1)
+Sep 22 16:52:54 symfony [info] {sfWebDebugLogger} Action "default/login" 0.14 ms (1)
+Sep 22 16:52:54 symfony [info] {sfWebDebugLogger} View "Success" for "default/login" 9.28 ms (1)
+Sep 22 16:52:54 symfony [info] {sfWebResponse} Send content (32308 o)
+Sep 22 16:54:51 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Sep 22 16:54:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 22 16:54:51 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 22 16:54:51 symfony [info] {sfBasicSecurityFilter} Action "job/index" requires authentication, forwarding to "default/login"
+Sep 22 16:54:51 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 22 16:54:51 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 22 16:54:51 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 22 16:54:51 symfony [info] {defaultActions} Call "defaultActions->executeLogin()"
+Sep 22 16:54:51 symfony [info] {sfPHPView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/controller/default/templates/loginSuccess.php"
+Sep 22 16:54:51 symfony [info] {sfPHPView} Decorate content with "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 22 16:54:51 symfony [info] {sfPHPView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Sep 22 16:54:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 22 16:54:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 22 16:54:51 symfony [info] {sfWebDebugLogger} Configuration 1.67 ms (14)
+Sep 22 16:54:51 symfony [info] {sfWebDebugLogger} Factories 30.50 ms (1)
+Sep 22 16:54:51 symfony [info] {sfWebDebugLogger} Action "default/login" 0.16 ms (1)
+Sep 22 16:54:51 symfony [info] {sfWebDebugLogger} View "Success" for "default/login" 10.50 ms (1)
+Sep 22 16:54:51 symfony [info] {sfWebResponse} Send content (32309 o)
+Sep 22 17:33:56 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Sep 22 17:33:56 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Sep 22 17:33:56 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Sep 22 17:33:56 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Sep 22 17:33:56 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Sep 22 17:33:56 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Sep 22 17:33:56 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Sep 22 17:33:56 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Sep 22 17:33:56 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Sep 22 17:33:56 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Sep 22 17:33:56 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Sep 22 17:33:56 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Sep 22 17:33:56 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Sep 22 17:33:56 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Sep 22 17:33:56 symfony [info] {myUser} Automatic user logout due to timeout
+Sep 22 17:33:56 symfony [info] {myUser} User is not authenticated
+Sep 22 17:33:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 22 17:33:56 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 22 17:33:56 symfony [info] {sfBasicSecurityFilter} Action "job/index" requires authentication, forwarding to "sfGuardAuth/signin"
+Sep 22 17:33:56 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 22 17:33:56 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 22 17:33:56 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+Sep 22 17:33:56 symfony [info] {sfPHPView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/signinSuccess.php"
+Sep 22 17:33:56 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/plugins/sfDoctrineGuardPlugin/modules/sfGuardAuth/templates/_signin_form.php"
+Sep 22 17:33:56 symfony [info] {sfPHPView} Decorate content with "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/apps/backend/templates/layout.php"
+Sep 22 17:33:56 symfony [info] {sfPHPView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/apps/backend/templates/layout.php"
+Sep 22 17:33:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 401 Unauthorized"
+Sep 22 17:33:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 22 17:33:56 symfony [info] {sfWebDebugLogger} Configuration 11.31 ms (14)
+Sep 22 17:33:56 symfony [info] {sfWebDebugLogger} Factories 41.53 ms (1)
+Sep 22 17:33:56 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 7.54 ms (1)
+Sep 22 17:33:56 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardAuth/signin" 17.74 ms (1)
+Sep 22 17:33:56 symfony [info] {sfWebDebugLogger} Partial "sfGuardAuth/_signin_form" 4.65 ms (1)
+Sep 22 17:33:56 symfony [info] {sfWebResponse} Send content (42342 o)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Match route "sf_guard_signin" (/guard/login) for /guard/login with parameters array (  'module' => 'sfGuardAuth',  'action' => 'signin',)
+Sep 22 17:34:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 22 17:34:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 22 17:34:03 symfony [info] {sfGuardAuthActions} Call "sfGuardAuthActions->executeSignin()"
+Sep 22 17:34:03 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 22 17:34:03 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sf_guard_user s WHERE (s.username = ? AND s.is_active = ?) - (admin, 1)
+Sep 22 17:34:03 symfony [info] {myUser} User is authenticated
+Sep 22 17:34:03 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.name AS s__name, s.description AS s__description, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s2.user_id AS s2__user_id, s2.permission_id AS s2__permission_id, s2.created_at AS s2__created_at, s2.updated_at AS s2__updated_at FROM sf_guard_permission s LEFT JOIN sf_guard_user_permission s2 ON s.id = s2.permission_id WHERE (s2.user_id IN (?)) - (1)
+Sep 22 17:34:03 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.name AS s__name, s.description AS s__description, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s2.user_id AS s2__user_id, s2.group_id AS s2__group_id, s2.created_at AS s2__created_at, s2.updated_at AS s2__updated_at FROM sf_guard_group s LEFT JOIN sf_guard_user_group s2 ON s.id = s2.group_id WHERE (s2.user_id IN (?)) - (1)
+Sep 22 17:34:03 symfony [info] {myUser} Add credential(s) ""
+Sep 22 17:34:03 symfony [info] {Doctrine_Connection_Statement} execute : UPDATE sf_guard_user SET last_login = ?, updated_at = ? WHERE id = ? - (2014-09-22 17:34:03, 2014-09-22 17:34:03, 1)
+Sep 22 17:34:03 symfony [info] {sfFrontWebController} Redirect to "http://www.jobeet.com.localhost/backend_dev.php/"
+Sep 22 17:34:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Sep 22 17:34:03 symfony [info] {sfWebResponse} Send header "Location: http://www.jobeet.com.localhost/backend_dev.php/"
+Sep 22 17:34:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 22 17:34:03 symfony [info] {sfWebDebugLogger} Configuration 1.26 ms (8)
+Sep 22 17:34:03 symfony [info] {sfWebDebugLogger} Factories 41.84 ms (1)
+Sep 22 17:34:03 symfony [info] {sfWebDebugLogger} Action "sfGuardAuth/signin" 72.90 ms (1)
+Sep 22 17:34:03 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.64 ms (5)
+Sep 22 17:34:03 symfony [info] {sfWebResponse} Send content (119 o)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Sep 22 17:34:03 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'job',  'action' => 'index',)
+Sep 22 17:34:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 22 17:34:03 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 22 17:34:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 22 17:34:03 symfony [info] {jobActions} Call "jobActions->executeIndex()"
+Sep 22 17:34:03 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 22 17:34:03 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM (SELECT j.id FROM jobeet_job j LEFT JOIN jobeet_category j2 ON j.category_id = j2.id GROUP BY j.id) dctrn_count_query - ()
+Sep 22 17:34:03 symfony [info] {sfPHPView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/indexSuccess.php"
+Sep 22 17:34:03 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_assets.php"
+Sep 22 17:34:03 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_flashes.php"
+Sep 22 17:34:03 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_header.php"
+Sep 22 17:34:03 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_filters.php"
+Sep 22 17:34:03 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_filters_field.php"
+Sep 22 17:34:03 symfony [info] {Doctrine_Connection_Mysql} query : SELECT j.id AS j__id, j.name AS j__name, j.created_at AS j__created_at, j.updated_at AS j__updated_at, j.slug AS j__slug FROM jobeet_category j - ()
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_filters_field.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_filters_field.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_filters_field.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_filters_field.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_filters_field.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_filters_field.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_filters_field.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_th_stacked.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_th_tabular.php"
+Sep 22 17:34:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 22 17:34:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 22 17:34:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 22 17:34:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 22 17:34:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 22 17:34:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 22 17:34:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 22 17:34:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 22 17:34:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 22 17:34:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 22 17:34:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 22 17:34:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_pagination.php"
+Sep 22 17:34:04 symfony [info] {Doctrine_Connection_Mysql} query : SELECT j.id AS j__id, j.category_id AS j__category_id, j.type AS j__type, j.company AS j__company, j.logo AS j__logo, j.url AS j__url, j.position AS j__position, j.location AS j__location, j.description AS j__description, j.how_to_apply AS j__how_to_apply, j.token AS j__token, j.is_public AS j__is_public, j.is_activated AS j__is_activated, j.email AS j__email, j.expires_at AS j__expires_at, j.created_at AS j__created_at, j.updated_at AS j__updated_at, j2.id AS j2__id, j2.name AS j2__name, j2.created_at AS j2__created_at, j2.updated_at AS j2__updated_at, j2.slug AS j2__slug FROM jobeet_job j LEFT JOIN jobeet_category j2 ON j.category_id = j2.id LIMIT 10 - ()
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_batch_actions.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_stacked.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_field_boolean.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_actions.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_batch_actions.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_stacked.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_field_boolean.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_actions.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_batch_actions.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_stacked.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_field_boolean.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_actions.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_batch_actions.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_stacked.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_field_boolean.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_actions.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_batch_actions.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_stacked.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_field_boolean.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_actions.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_batch_actions.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_stacked.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_field_boolean.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_actions.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_batch_actions.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_stacked.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_field_boolean.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_actions.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_batch_actions.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_stacked.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_field_boolean.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_actions.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_batch_actions.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_stacked.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_field_boolean.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_actions.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_batch_actions.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_stacked.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_field_boolean.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_td_actions.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_batch_actions.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_actions.php"
+Sep 22 17:34:04 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoJob/templates/_list_footer.php"
+Sep 22 17:34:04 symfony [info] {sfPHPView} Decorate content with "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/apps/backend/templates/layout.php"
+Sep 22 17:34:04 symfony [info] {sfPHPView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/apps/backend/templates/layout.php"
+Sep 22 17:34:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 22 17:34:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 22 17:34:04 symfony [info] {sfWebDebugLogger} Configuration 1.55 ms (11)
+Sep 22 17:34:04 symfony [info] {sfWebDebugLogger} Factories 40.24 ms (1)
+Sep 22 17:34:04 symfony [info] {sfWebDebugLogger} Action "job/index" 52.04 ms (1)
+Sep 22 17:34:04 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.17 ms (4)
+Sep 22 17:34:04 symfony [info] {sfWebDebugLogger} View "Success" for "job/index" 123.10 ms (1)
+Sep 22 17:34:04 symfony [info] {sfWebDebugLogger} Partial "job/_assets" 0.67 ms (1)
+Sep 22 17:34:04 symfony [info] {sfWebDebugLogger} Partial "job/_flashes" 0.52 ms (1)
+Sep 22 17:34:04 symfony [info] {sfWebDebugLogger} Partial "job/_list_header" 0.45 ms (1)
+Sep 22 17:34:04 symfony [info] {sfWebDebugLogger} Partial "job/_filters" 32.11 ms (1)
+Sep 22 17:34:04 symfony [info] {sfWebDebugLogger} Partial "job/_filters_field" 24.07 ms (8)
+Sep 22 17:34:04 symfony [info] {sfWebDebugLogger} Partial "job/_list" 74.39 ms (1)
+Sep 22 17:34:04 symfony [info] {sfWebDebugLogger} Partial "job/_list_th_stacked" 3.81 ms (1)
+Sep 22 17:34:04 symfony [info] {sfWebDebugLogger} Partial "job/_list_th_tabular" 3.18 ms (1)
+Sep 22 17:34:04 symfony [info] {sfWebDebugLogger} Partial "job/_pagination" 1.53 ms (1)
+Sep 22 17:34:04 symfony [info] {sfWebDebugLogger} Partial "job/_list_td_batch_actions" 5.79 ms (10)
+Sep 22 17:34:04 symfony [info] {sfWebDebugLogger} Partial "job/_list_td_stacked" 20.12 ms (10)
+Sep 22 17:34:04 symfony [info] {sfWebDebugLogger} Partial "job/_list_field_boolean" 5.46 ms (10)
+Sep 22 17:34:04 symfony [info] {sfWebDebugLogger} Partial "job/_list_td_actions" 26.44 ms (10)
+Sep 22 17:34:04 symfony [info] {sfWebDebugLogger} Partial "job/_list_batch_actions" 0.92 ms (1)
+Sep 22 17:34:04 symfony [info] {sfWebDebugLogger} Partial "job/_list_actions" 1.31 ms (1)
+Sep 22 17:34:04 symfony [info] {sfWebDebugLogger} Partial "job/_list_footer" 0.44 ms (1)
+Sep 22 17:34:04 symfony [info] {sfWebResponse} Send content (184355 o)
+Sep 22 17:34:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/guard/login)
+Sep 22 17:34:06 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/guard/logout)
+Sep 22 17:34:06 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_filter" (/guard/users/filter.:sf_format)
+Sep 22 17:34:06 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_batch" (/guard/users/batch.:sf_format)
+Sep 22 17:34:06 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user" (/guard/users.:sf_format)
+Sep 22 17:34:06 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_new" (/guard/users/new.:sf_format)
+Sep 22 17:34:06 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_create" (/guard/users.:sf_format)
+Sep 22 17:34:06 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_edit" (/guard/users/:id/edit.:sf_format)
+Sep 22 17:34:06 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_update" (/guard/users/:id.:sf_format)
+Sep 22 17:34:06 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_delete" (/guard/users/:id.:sf_format)
+Sep 22 17:34:06 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_show" (/guard/users/:id.:sf_format)
+Sep 22 17:34:06 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_object" (/guard/users/:id/:action.:sf_format)
+Sep 22 17:34:06 symfony [info] {sfPatternRouting} Connect sfDoctrineRoute "sf_guard_user_collection" (/guard/users/:action/action.:sf_format)
+Sep 22 17:34:06 symfony [info] {sfPatternRouting} Match route "sf_guard_user" (/guard/users.:sf_format) for /guard/users with parameters array (  'module' => 'sfGuardUser',  'action' => 'index',  'sf_format' => 'html',)
+Sep 22 17:34:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Sep 22 17:34:06 symfony [info] {sfFilterChain} Executing filter "sfBasicSecurityFilter"
+Sep 22 17:34:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Sep 22 17:34:06 symfony [info] {sfGuardUserActions} Call "sfGuardUserActions->executeIndex()"
+Sep 22 17:34:06 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Sep 22 17:34:06 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM sf_guard_user s - ()
+Sep 22 17:34:06 symfony [info] {sfPHPView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/indexSuccess.php"
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_assets.php"
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_flashes.php"
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_list_header.php"
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_filters.php"
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_filters_field.php"
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_filters_field.php"
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_filters_field.php"
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_filters_field.php"
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_filters_field.php"
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_filters_field.php"
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_filters_field.php"
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_filters_field.php"
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_filters_field.php"
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_filters_field.php"
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_filters_field.php"
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_filters_field.php"
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_filters_field.php"
+Sep 22 17:34:06 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.name AS s__name, s.description AS s__description, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sf_guard_group s - ()
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_filters_field.php"
+Sep 22 17:34:06 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.name AS s__name, s.description AS s__description, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sf_guard_permission s - ()
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_list.php"
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_list_th_tabular.php"
+Sep 22 17:34:06 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 22 17:34:06 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 22 17:34:06 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 22 17:34:06 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 22 17:34:06 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 22 17:34:06 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 22 17:34:06 symfony [info] {main} Set slot "sf_admin.current_header"
+Sep 22 17:34:06 symfony [info] {main} Get slot "sf_admin.current_header"
+Sep 22 17:34:06 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.first_name AS s__first_name, s.last_name AS s__last_name, s.email_address AS s__email_address, s.username AS s__username, s.algorithm AS s__algorithm, s.salt AS s__salt, s.password AS s__password, s.is_active AS s__is_active, s.is_super_admin AS s__is_super_admin, s.last_login AS s__last_login, s.created_at AS s__created_at, s.updated_at AS s__updated_at FROM sf_guard_user s LIMIT 20 - ()
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_list_td_batch_actions.php"
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_list_td_tabular.php"
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_list_td_actions.php"
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_list_batch_actions.php"
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_list_actions.php"
+Sep 22 17:34:06 symfony [info] {sfPartialView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/cache/backend/dev/modules/autoSfGuardUser/templates/_list_footer.php"
+Sep 22 17:34:06 symfony [info] {sfPHPView} Decorate content with "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/apps/backend/templates/layout.php"
+Sep 22 17:34:06 symfony [info] {sfPHPView} Render "/Users/benjamindevaublanc/Documents/Development/Mamp/Jobeet/apps/backend/templates/layout.php"
+Sep 22 17:34:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Sep 22 17:34:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Sep 22 17:34:06 symfony [info] {sfWebDebugLogger} Configuration 80.00 ms (13)
+Sep 22 17:34:06 symfony [info] {sfWebDebugLogger} Factories 42.67 ms (1)
+Sep 22 17:34:06 symfony [info] {sfWebDebugLogger} Action "sfGuardUser/index" 38.95 ms (1)
+Sep 22 17:34:06 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.21 ms (5)
+Sep 22 17:34:06 symfony [info] {sfWebDebugLogger} View "Success" for "sfGuardUser/index" 95.33 ms (1)
+Sep 22 17:34:06 symfony [info] {sfWebDebugLogger} Partial "sfGuardUser/_assets" 0.52 ms (1)
+Sep 22 17:34:06 symfony [info] {sfWebDebugLogger} Partial "sfGuardUser/_flashes" 0.50 ms (1)
+Sep 22 17:34:06 symfony [info] {sfWebDebugLogger} Partial "sfGuardUser/_list_header" 0.49 ms (1)
+Sep 22 17:34:06 symfony [info] {sfWebDebugLogger} Partial "sfGuardUser/_filters" 55.15 ms (1)
+Sep 22 17:34:06 symfony [info] {sfWebDebugLogger} Partial "sfGuardUser/_filters_field" 43.34 ms (14)
+Sep 22 17:34:06 symfony [info] {sfWebDebugLogger} Partial "sfGuardUser/_list" 21.95 ms (1)
+Sep 22 17:34:06 symfony [info] {sfWebDebugLogger} Partial "sfGuardUser/_list_th_tabular" 2.34 ms (1)
+Sep 22 17:34:06 symfony [info] {sfWebDebugLogger} Partial "sfGuardUser/_list_td_batch_actions" 0.56 ms (1)
+Sep 22 17:34:06 symfony [info] {sfWebDebugLogger} Partial "sfGuardUser/_list_td_tabular" 12.37 ms (1)
+Sep 22 17:34:06 symfony [info] {sfWebDebugLogger} Partial "sfGuardUser/_list_td_actions" 1.75 ms (1)
+Sep 22 17:34:06 symfony [info] {sfWebDebugLogger} Partial "sfGuardUser/_list_batch_actions" 0.85 ms (1)
+Sep 22 17:34:06 symfony [info] {sfWebDebugLogger} Partial "sfGuardUser/_list_actions" 0.62 ms (1)
+Sep 22 17:34:06 symfony [info] {sfWebDebugLogger} Partial "sfGuardUser/_list_footer" 0.43 ms (1)
+Sep 22 17:34:06 symfony [info] {sfWebResponse} Send content (165690 o)
