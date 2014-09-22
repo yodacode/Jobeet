@@ -12,6 +12,13 @@
  */
 class JobeetCategory extends BaseJobeetCategory
 {
+
+
+	public function configure()
+	{
+		unset($this['created_at'], $this['updated_at'], $this['jobeet_affiliates_list']);
+	}
+
 	// public function getActiveJobs($max = 10)
 	// {
 	//   $q = Doctrine_Query::create()
