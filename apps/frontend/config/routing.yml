@@ -10,7 +10,7 @@ category:
  
 job:
   class:   sfDoctrineRouteCollection
-  options: { model: JobeetJob, column: token, object_actions: { publish: put} }
+  options: { model: JobeetJob, column: token, object_actions: { publish: put, extend: put} }
   requirements: { token: \w+ }
  
 job_show_user:

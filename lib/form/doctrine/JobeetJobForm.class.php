@@ -13,6 +13,7 @@ class JobeetJobForm extends BaseJobeetJobForm
   public function configure()
   {
 
+    
   	unset(
       $this['created_at'], $this['updated_at'],
       $this['expires_at'], $this['is_activated'],
@@ -48,8 +49,9 @@ class JobeetJobForm extends BaseJobeetJobForm
       'path'       => sfConfig::get('sf_upload_dir').'/jobs',
       'mime_types' => 'web_images',
     ));
- 
+  
     $this->widgetSchema->setHelp('is_public', 'Whether the job can also be published on affiliate websites or not.');
+    $this->widgetSchema->setNameFormat('job[%s]');
   }
 
   
