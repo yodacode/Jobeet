@@ -15,8 +15,10 @@ class affiliateActions extends autoAffiliateActions
 {
 	public function executeListActivate()
 	{
-		$this->getRoute()->getObject()->activate();
 
+		$affiliate = $this->getRoute()->getObject();
+		$affiliate->activate();
+		$this->sendActivationEmail($affiliate->getEmail());
 		$this->redirect('jobeet_affiliate');
 	}
 
@@ -26,36 +28,50 @@ class affiliateActions extends autoAffiliateActions
 
 		$this->redirect('jobeet_affiliate');
 	}
-	
+
 	public function executeBatchActivate(sfWebRequest $request)
 	{
 		$q = Doctrine_Query::create()
 	      ->from('JobeetAffiliate a')
 	      ->whereIn('a.id', $request->getParameter('ids'));
-	 
+
 	    $affiliates = $q->execute();
-	 
+
 	    foreach ($affiliates as $affiliate)
 	    {
-	      $affiliate->activate();
+	    	$this->sendActivationEmail($affiliate->getEmail());
+	      	$affiliate->activate();
 	    }
-	 
+
 	    $this->redirect('jobeet_affiliate');
 	  }
-	 
-	  public function executeBatchDeactivate(sfWebRequest $request)
-	  {
-	    $q = Doctrine_Query::create()
-	      ->from('JobeetAffiliate a')
-	      ->whereIn('a.id', $request->getParameter('ids'));
-	 
-	    $affiliates = $q->execute();
-	 
-	    foreach ($affiliates as $affiliate)
-	    {
-	      $affiliate->deactivate();
-	    }
-	 
-	    $this->redirect('jobeet_affiliate');
-	  }
+
+	public function executeBatchDeactivate(sfWebRequest $request)
+	{
+		$q = Doctrine_Query::create()
+		  ->from('JobeetAffiliate a')
+		  ->whereIn('a.id', $request->getParameter('ids'));
+
+		$affiliates = $q->execute();
+
+		foreach ($affiliates as $affiliate)
+		{
+		  $affiliate->deactivate();
+		}
+
+		$this->redirect('jobeet_affiliate');
+	}
+
+	public function sendActivationEmail($affiliateEmail)
+	{
+		// send an email to the affiliate
+		$message = $this->getMailer()->compose(
+		  array('benjamin.devaublanc@gmail.com' => 'Jobeet Bot'),
+		  $affiliateEmail,
+		  'Jobeet affiliate token',
+		  'Your Jobeet affiliate account has been activated.'
+		);
+
+		$this->getMailer()->send($message);
+	}
 }
