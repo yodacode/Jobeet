@@ -42,6 +42,10 @@ job_show_user:
     id: \d+
     sf_method: [get]
  
+job_search:
+  url:   /search
+  param: { module: job, action: search }
+ 
 homepage:
   url:   /
   param: { module: job, action: index }
