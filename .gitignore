@@ -1,5 +1,3 @@
-/cache/*
-/log/*
-/web/uploads/*
-.DS_Store
 log/*
+cache/*
+web/uploads
